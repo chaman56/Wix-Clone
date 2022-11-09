@@ -1,1 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="creator">Created by Chaman</div>
+    <section class="header">
+
+        <div class="nav1">
+            <ul class="ul1">
+                <li><a href=""><img src="images/chaman.svg" width="100px" alt=""></a></li>
+                <li>
+                    <button class="menu-btn" id="creation-btn" onclick="myFunction()" href="">Creation
+                        <img src="images/down-arrow.png">
+                    </button>
+                </li>
+                <li><button class="menu-btn" id="buisness-btn" onclick="buisness()" href="">Buisness
+                        <img src="images/down-arrow.png">
+                    </button>
+                </li>
+                <li><button class="menu-btn" id="growth-btn" onclick="growth()" href="">Growth <img
+                            src="images/down-arrow.png"></button></li>
+                <li><button class="menu-btn" id="resources-btn" onclick="resources()" href="">Resources <img
+                            src="images/down-arrow.png"></button></li>
+                <li width="50px" class="line">
+                    <hr>
+                </li>
+                <li><button class="menu-btn" id="more-btn" onclick="more()">More <img
+                            src="images/down-arrow.png"></button></li>
+                <div class="extra">
+                    <li><button class="menu-btn" href="">EnterPrise</button></li>
+                    <li><button class="menu-btn" href="">Pricing</button></li>
+                    <li><button class="menu-btn" href="">Support</button></li>
+                </div>
+            </ul>
+            <ul class="ul2">
+                <li><button><img src="images/world.png" height="20px"></button></li>
+                <li width="50px" class="line">
+                    <hr>
+                </li>
+                <li><button href=""><a href="">Log In</a></button></li>
+                <li><button class="round-button" href="">Get Started</button></li>
+            </ul>
+        </div>
+
+    </section>
+    <div class="menu-description">
+        <div>
+            <script>
+                function myFunction() {
+                    document.getElementById("creation-id").setAttribute("class", "creation");
+                    document.getElementById("creation-btn").setAttribute("onclick", "myFunction2()");
+                }
+                function myFunction2() {
+                    document.getElementById("creation-id").setAttribute("class", "class");
+                    document.getElementById("creation-btn").setAttribute("onclick", "myFunction()");
+                }
+            </script>
+            <div id="creation-id" class="class">
+                <ul>
+                    <div class="right-pan">
+                        <li>
+                            <a href="">
+                                <p class="heading">Website Design</p>
+                                <p>Discover all the ways you can create and design your website on Wix.
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="heading">Website Templates</p>
+                                <p>Discover all the ways you can create and design your website on Wix.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="heading">Advanced Web Developement</p>
+                                <p>Build web applications on Velo's open dev platform.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="heading">Editor X</p>
+                                <p>Take full design control with flexible grids and custom breakpoints.</p>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="right-pan">
+                        <li>
+                            <a href="">
+                                <p class="heading">Mobile App</p>
+                                <p>Build, customize and manage your website on the go.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="heading">Hire a Professional</p>
+                                <p>Find a professional to help build, design and promote your site.</p>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+                <div class="sidepan">
+                    <ul>
+                        <p>Website Essentials</p>
+                        <li><a href="">Custom Domain Name</a></li>
+                        <li><a href="">Secure Web Hosting</a></li>
+                        <li><a href="">Logo Maker</a></li>
+                        <li><a href="">SEO Toolset</a></li>
+                    </ul>
+                    <hr>
+                    <div class="side-bottom">
+                        <a href="">
+                            <p class="heading">Become a Wix Partner</p>
+                            <p>Gain Partner benefits & scale your business.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function buisness() {
+            document.getElementById('buisness-id').setAttribute('class', 'buisness');
+            document.getElementById('buisness-btn').setAttribute('onclick', 'buisness1()');
+        }
+        function buisness1() {
+            document.getElementById('buisness-id').setAttribute('class', 'class');
+            document.getElementById('buisness-btn').setAttribute('onclick', 'buisness()')
+        }
+    </script>
+    <div id="buisness-id" class="class">
+        <div class="col3">
+            <ul>
+                <li><a href="">eCommmerce Website
+                        <p>Sell products and manage fulfillment
+                            from one eCommerce platform.
+                        </p>
+                    </a>
+                </li>
+                <li><a href="">Online Services
+                        <p>
+                            Offer clients to book your services and pay online.
+                        </p>
+                    </a>
+                </li>
+                <li><a href="">Restaurants
+                        <p>Display your menu and take orders & reservations online.</p>
+                    </a>
+                </li>
+                <li><a href="">Blog Website
+                        <p>Share ideas with your
+                            audience and drive traffic
+                            to your website.</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col3">
+            <ul>
+                <li><a href="">Fitness
+                        <p>Offer classes and manage your clients,
+                            bookings and payments online.</p>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="col3">
+            <ul>
+                <p>Tools & Features</p>
+                <li><a href="">Online Payments</a></li>
+                <li><a href="">Multichannel Sales</a></li>
+                <li><a href="">Point of Sale</a></li>
+                <li><a href="">Analytics & Reports</a></li>
+                <li><a href="">Event creation</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="class" id="growth-id">
+        <div class="col3">
+            <ul>
+                <li><a href="">Email Marketing<p>Get the word out about sales and track your campaigns.</p></a></li>
+                <li><a href="">Social Posts
+                        <p>Reach a wider audience with eye-catching posts. </p>
+                    </a></li>
+                <li><a href="">Facebook Ads
+                        <p>Target the right customers with Wix's AI optimization. </p>
+                    </a></li>
+                <li><a href="">Client Management
+                        <p>Collect leads, talk to clients and streamline your workflow. </p>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function growth() {
+            document.getElementById("growth-id").setAttribute("class", "growth");
+            document.getElementById("growth-btn").setAttribute("onclick", "growth1()");
+        }
+        function growth1() {
+            document.getElementById("growth-id").setAttribute("class", "class");
+            document.getElementById("growth-btn").setAttribute("onclick", "growth()");
+        }
+    </script>
+
+    <div class="class" id="resources-id">
+        <div class="col3">
+            <ul>
+                <li><a href="">All Tools & Features<p>Find everything you need to build your site and run your business.
+                        </p></a>
+                </li>
+                <li><a href="">Web Design Inspiration
+                        <p>Get inspired by unique designs & powerful websites built on Wix.</p>
+                    </a></li>
+                <li><a href="">Wix Learn
+                        <p>Take video courses & lessons and gain the skills you need to succeed online.</p>
+                    </a></li>
+                <li><a href="">Wix Blog
+                        <p>Get business tips, online marketing guidance, and the latest website trends.</p>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function resources() {
+            document.getElementById("resources-id").setAttribute("class", "resources");
+            document.getElementById("resources-btn").setAttribute("onclick", "resources1()");
+        }
+        function resources1() {
+            document.getElementById("resources-id").setAttribute("class", "class");
+            document.getElementById("resources-btn").setAttribute("onclick", "resources()");
+        }
+    </script>
+
+    <div class="class" id="more-id">
+        <div class="col3">
+            <ul>
+                <li><a href="">
+                        EnterPrise
+                    </a></li>
+                <li><a href="">
+                        Pricing
+                    </a></li>
+                <li><a href="">
+                        Support
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function more() {
+            document.getElementById("more-id").setAttribute("class", "more");
+            document.getElementById("more-btn").setAttribute("onclick", "more1()");
+        }
+        function more1() {
+            document.getElementById("more-id").setAttribute("class", "class");
+            document.getElementById("more-btn").setAttribute("onclick", "more()");
+        }
+    </script>
+
+    <section class="support-ukraine">
+        <img src="images/ukraine.png" alt=""> Let's make an impact together to stand with the people of Ukraine.<a
+            href="">Show Support</a>&#8594;
+    </section>
+
+    <section class="main">
+        <main>
+            <h1>
+                Create a website <br> without limit.
+            </h1>
+            <h2>
+                Discover the platform that gives you the freedom to create,<br>
+                design manage and develop your web presence exactly the way<br>
+                you want.
+            </h2>
+            <button class="round-button btn2" href="">Get Started</button>
+            <p>Try Wix. No credit card required.</p>
+            <img src="images/home.png" alt="">
+
+        </main>
+    </section>
+</body>
+
+</html>
