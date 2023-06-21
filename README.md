@@ -1,5 +1,5 @@
 ### Hi there 👋
-My Self Chaman Yadav doing web development, competative programming and exploring other new technologies.
+MySelf Chaman currently working on web development, competative programming and exploring other new technologies.
 
 <!--
 **chaman56/chaman56** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
